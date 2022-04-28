@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Watchlist</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container container">
+        <h1>Find your film</h1>
+        <a class="header-link" href="watchlist.html">My Watchlist</a>
+      </div>
+    </header>
+
+    <main class="main-container container">
+      <form class="search-bar" id="search-bar">
+        <label class="search-label" aria-label="search" for="search"
+          ><img src="search-icon.svg" width="16" height="16" alt="search icon"
+        /></label>
+        <input
+          autocomplete="off"
+          id="search"
+          class="search-input"
+          type="text"
+          placeholder="Search for a movie"
+          required
+        />
+        <button class="search-button">Search</button>
+      </form>
+
+      <div class="start-exploring" id="start-exploring">
+        <img src="start-exploring.svg" width="70" height="61.25" alt="" />
+        <p class="start-exploring-text">Start exploring</p>
+      </div>
+
+      <div class="unable" id="unable">
+        <p>
+          Unable to find what you're looking for. Please try another search.
+        </p>
+      </div>
+
+      <div class="movie-list" id="movie-list"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
