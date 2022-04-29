@@ -56,7 +56,7 @@ const showMovies = (movies) => {
       <div class="movie-result">
         <a class="movie-poster" href="https://www.imdb.com/title/${movieID}/"> 
         <img
-          src="${poster === "N/A" ? "default-movie-poster.jpg" : poster}"
+          src="${poster === "N/A" ? "images/default-movie-poster.jpg" : poster}"
           alt="movie poster"
           width="300"
           height="447"
@@ -67,7 +67,7 @@ const showMovies = (movies) => {
           <span class="movie-rating"
             ><img
               class="rating-icon"
-              src="star-icon.svg"
+              src="images/star-icon.svg"
               width="15"
               height="15"
               alt="rating icon"
