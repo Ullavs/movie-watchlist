@@ -1,7 +1,7 @@
 # Movie Watchlist
 
 This is a solution to a solo project from [Scrimba](https://www.scrimba.com).
-Solo projects are meant to challenge your skills you've learnt so far through the course; there is no solution given by Scrimba. 
+Solo projects are meant to challenge the skills you've learnt so far through the courses; there is no solution given by Scrimba. 
 
 ## The challenge
 
@@ -17,3 +17,6 @@ Solo projects are meant to challenge your skills you've learnt so far through th
 - JavaScript
 - Mobile-first workflow
 - [OMDB API](https://www.omdbapi.com/)
+
+## Live URL
+- Check this project [online](movies.ullavs.nl) 
