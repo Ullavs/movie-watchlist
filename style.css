@@ -74,7 +74,7 @@ select {
 }
 
 header {
-  background-image: url(header-img.jpg);
+  background-image: url(images/header-img.jpg);
   background-color: #302f2fe6;
   background-blend-mode: multiply;
   background-size: cover;
