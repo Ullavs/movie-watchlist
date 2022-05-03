@@ -13,7 +13,8 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 ## Built with
 
 - Semantic HTML5 markup
-- CSS custom properties (CSS Grid, CSS Flexbox)
+- CSS custom properties 
+- CSS Grid, CSS Flexbox
 - JavaScript
 - Mobile-first workflow
 - Light and dark version
