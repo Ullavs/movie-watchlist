@@ -1,6 +1,6 @@
 describe("homepage", () => {
   beforeEach(() => {
-    cy.visit("http://127.0.0.1:5500/index.html");
+    cy.visit("http://localhost:1606/index.html");
   });
 
   it("displays the title", () => {

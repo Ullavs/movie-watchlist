@@ -4,6 +4,7 @@
   "description": "This is a solution to a solo project from [Scrimba](https://www.scrimba.com). Solo projects are meant to challenge the skills you've learnt so far through the courses; there is no solution given by Scrimba.",
   "main": "app.js",
   "scripts": {
+    "dev": "serve ./src -p 1606",
     "e2e:run": "cypress run",
     "e2e:open": "cypress open"
   },
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/Ullavs/movie-watchlist#readme",
   "dependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.8.0",
+    "serve": "^14.0.1"
   }
 }
